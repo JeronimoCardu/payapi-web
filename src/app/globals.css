@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-dark-pink: #ba4270;
+  --color-water-white: #fbfcfe;
+  --color-sanJuan-blue: #36536b;
+  --color-mirage-blue: #1b262f;
+  --color-charm-pink: #da6d97;
+  --color-light-sanJuan-blue: #6c8294;
+}
+
+@layer base {
+  .h1Large {
+    font-size: 72px;
+    line-height: 4.5rem;
+  }
+  .h1Small {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+  .h2Small {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  .h3Big {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .h3Small {
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+  }
+  .h4Small {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .bodyCopy {
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+  }
+}
