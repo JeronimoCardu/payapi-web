@@ -17,7 +17,7 @@ export default function Footer() {
           width={500}
           height={100}
           src={'/assets/shared/desktop/bg-pattern-circle.svg'}
-          className='absolute z-0 left-0 scale-150 -translate-y-[80%]'
+          className='absolute z-0 left-0 scale-150 translate-y-[60%]'
         />
         <Image
           width={135}
