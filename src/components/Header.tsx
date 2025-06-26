@@ -7,7 +7,7 @@ export default function Header() {
   const setOpenDashboard = useStore((state) => state.setOpenDashboard)
 
   return (
-    <header className='flex items-center justify-between'>
+    <header className='flex p-[2rem_1.5rem] items-center justify-between'>
       <Image
         width={135}
         height={38}

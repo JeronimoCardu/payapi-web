@@ -3,6 +3,7 @@ import { ReactNode } from 'react'
 import './globals.css'
 import Header from '@/components/Header'
 import { dmSerifDisplay } from '@/lib/fonts'
+import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'PayAPI',
@@ -15,9 +16,10 @@ export default function Layout({ children }: { children: ReactNode }) {
     <html lang='en'>
       <body
         cz-shortcut-listen='true'
-        className={`${dmSerifDisplay.className} relative p-[3rem_2rem]`}>
+        className={`${dmSerifDisplay.className} bg-[#EDF3F8] relative`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
